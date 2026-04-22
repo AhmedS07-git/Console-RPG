@@ -10,7 +10,7 @@ class Inventory {
     int ItemCount;
 
     public:
-    Inventory(int capcaity);
+    Inventory(int capacity);
     ~Inventory();
 
     bool addItem(const Item& item);
